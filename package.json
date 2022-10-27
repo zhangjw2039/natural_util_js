@@ -1,0 +1,25 @@
+{
+  "name": "natural_util_js",
+  "version": "1.0.0",
+  "description": "常见的js工具包",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/zhangjw2039/natural_util_js.git"
+  },
+  "keywords": [
+    "natural",
+    "utils",
+    "list",
+    "tree"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zhangjw2039/natural_util_js/issues"
+  },
+  "homepage": "https://github.com/zhangjw2039/natural_util_js#readme"
+}
