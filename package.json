@@ -1,6 +1,6 @@
 {
   "name": "natural_util_js",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "常见的js工具包",
   "main": "index.js",
   "scripts": {

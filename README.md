@@ -12,3 +12,11 @@ npm install natural_util_js
     // parentIden = 'parent'（父类标识）
     listToTree(arr)
 ```
+
+## treeToList
+``` js
+
+    // tree 数据源（必传）,  
+    // children = 'children'（子类集合属性）, 
+    treeToList(tree)
+```
