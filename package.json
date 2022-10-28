@@ -1,10 +1,14 @@
 {
   "name": "natural_util_js",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "常见的js工具包",
-  "main": "index.js",
+  "main": "./dist/library.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -21,5 +25,9 @@
   "bugs": {
     "url": "https://github.com/zhangjw2039/natural_util_js/issues"
   },
-  "homepage": "https://github.com/zhangjw2039/natural_util_js#readme"
+  "homepage": "https://github.com/zhangjw2039/natural_util_js#readme",
+  "devDependencies": {
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
 }

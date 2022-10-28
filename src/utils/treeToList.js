@@ -17,4 +17,5 @@ function treeToList(tree, children = 'children') {
     }
     return arr
 }
-module.exports = treeToList
+
+export default treeToList

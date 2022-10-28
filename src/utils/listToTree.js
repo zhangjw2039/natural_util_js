@@ -22,4 +22,4 @@ function listToTree(arr, iden = 'id', children = 'children', parentIden = 'paren
     return result
 }
 
-module.exports = listToTree
+export default listToTree

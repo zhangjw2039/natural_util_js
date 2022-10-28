@@ -1,7 +1,6 @@
-const listToTree = require('./src/utils/listToTree')
-const treeToList = require('./src/utils/treeToList')
-
-module.exports = {
+import listToTree from './src/utils/listToTree.js'
+import treeToList  from './src/utils/treeToList.js'
+export default  {
     listToTree,
     treeToList
 }
