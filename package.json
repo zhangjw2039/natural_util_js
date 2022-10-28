@@ -1,6 +1,7 @@
 {
+  "type": "module",
   "name": "natural_util_js",
-  "version": "1.0.8",
+  "version": "1.1.0",
   "description": "常见的js工具包",
   "main": "./dist/library.js",
   "files": [
@@ -18,7 +19,9 @@
     "natural",
     "utils",
     "list",
-    "tree"
+    "tree",
+    "Date",
+    "format"
   ],
   "author": "",
   "license": "ISC",
