@@ -2,7 +2,7 @@ const path = require('path')
 /**@type {import('webpack'.Configuration)} */
 const config = {
     entry: './index.js',
-    mode: 'development',
+    mode: 'production',
     output: {
         path: path.resolve(__dirname, 'dist'),
         clean: true,

@@ -29,3 +29,13 @@ npm install natural_util_js
     // isFill 默认true 补零 
     transformDate(date, format, isFill)
 ```
+
+## deepFind
+``` js
+
+    // source 数据源（必传）array
+    // key(必传) 需要找寻的key
+    // value 需要找寻的key对应的值
+    // children 子类字段
+    deepFind(source, key, value, children)
+```
