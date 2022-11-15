@@ -4,7 +4,6 @@ function deepFind(source, key, value, children = 'children') {
     }
     let temp = null
     for (let index = 0; index < source.length; index++) {
-        console.log(source[index][key], value)
         if(source[index][key] === value) {
             temp = source[index]
         }else {

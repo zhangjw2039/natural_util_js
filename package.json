@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "natural_util_js",
   "version": "1.1.2",
   "description": "常见的js工具包",
@@ -7,7 +8,7 @@
     "dist"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "build": "webpack"
   },
   "repository": {
@@ -29,6 +30,10 @@
   },
   "homepage": "https://github.com/zhangjw2039/natural_util_js#readme",
   "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "jest": "^29.3.1",
     "webpack": "^5.74.0",
     "webpack-cli": "^4.10.0"
   }

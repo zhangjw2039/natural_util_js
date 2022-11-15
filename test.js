@@ -27,5 +27,11 @@ const arr = [
     }
 ]
 
-const a = deepFind(arr, 'id', 2.2)
-console.log(a)
+// const a = deepFind(arr, 'id', 2.2)
+// console.log(a)
+test('11111', () => {
+    expect(deepFind(arr, 'id', 2.2)).toEqual({
+        id: 2.2,
+        name: '王八'
+    })
+})
